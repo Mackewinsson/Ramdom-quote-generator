@@ -61,7 +61,7 @@ function getRandomColor (){
     return colors[ramdomColor];
   };
 
-var myTimer = setInterval(printQuote, 2000); //Aqui colocamos un contador para ejecutar el print
+var myTimer = setInterval(printQuote, 20000); //Aqui colocamos un contador para ejecutar el print
 
 /***
   Aqui se crea la funcion print que crea el string para ver la frase aleatoria
